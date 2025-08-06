@@ -1,6 +1,14 @@
+@font-face {
+    font-family: 'ChicagoFLF';
+    src: url('fonts/ChicagoFLF.woff2') format('woff2'),
+         url('fonts/ChicagoFLF.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'ChicagoFLF', sans-serif;
 }
