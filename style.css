@@ -6,9 +6,51 @@
         font-style: normal;
 }
 
+@font-face {
+    font-family: 'SysfontC';
+    src: url('fonts/SysfontC.woff2') format('woff2'),
+         url('fonts/SysfontC.woff') format('woff');
+         font-weight: normal;
+         font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'ChicagoFLF', sans-serif;
+}
+
+header {
+    font-family: 'SysfontC', sans-serif;
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h4 {
+    font-family: 'SysfontC', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    font-family: 'SysfontC', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
