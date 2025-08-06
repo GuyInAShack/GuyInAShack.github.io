@@ -35,6 +35,7 @@ header {
     width: 100vw;
     box-sizing: border-box;
     padding: 1.25rem 1.25rem 1.25rem 60px;
+    z-index: 1;
 }
 
 h1 {
@@ -113,56 +114,54 @@ footer {
 
 /* menu stuff */
 
+#menu-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+
 .topmenu {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: black;
   color: white;
-  max-height: 0; /* hidden */
-  overflow: hidden;
-  transition: max-height 0.3s ease;
+  padding: 2rem 1rem 1rem;
   z-index: 1000;
-  box-sizing: border-box;
-  padding: 0 1rem;
-  font-family: 'SysfontC', sans-serif;
 }
 
-/* show menu */
-.topmenu.active {
-  max-height: 300px; 
-  padding: 1rem;
+#close-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
-/* menu list */
 .topmenu ul {
   list-style: none;
-  margin: 2rem 0 0 0;
   padding: 0;
-  padding-top: 0.5rem;
+  margin-top: 2rem;
 }
 
 .topmenu ul li {
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 
 .topmenu ul li a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
-}
-
-/* menu button in the header */
-#menu-btn {
-  font-size: 1.5rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  padding: 10px 15px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  z-index: 1100;
 }
