@@ -139,6 +139,7 @@ header {
   top: 50%;
   transform: translateY(-50%);
   z-index: 3;
+  font-family: 'SysfontC', sans-serif;
 }
 
 .topmenu {
