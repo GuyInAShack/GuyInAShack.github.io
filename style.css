@@ -25,7 +25,6 @@ header {
     font-family: 'SysfontC', sans-serif;
     background-color: black;
     color: #ffffff;
-    padding: 1.25rem;
     text-align: center;
     position: relative;
     left: 50%;
@@ -35,6 +34,7 @@ header {
     margin-right: -50vw;
     width: 100vw;
     box-sizing: border-box;
+    padding: 1.25rem 1.25rem 1.25rem 60px;
 }
 
 h1 {
@@ -109,4 +109,60 @@ footer {
     footer {
         font-size: 0.85rem;
     }
+}
+
+/* menu stuff */
+
+.topmenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  max-height: 0; /* hidden */
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  z-index: 1000;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  font-family: 'SysfontC', sans-serif;
+}
+
+/* show menu */
+.topmenu.active {
+  max-height: 300px; 
+  padding: 1rem;
+}
+
+/* menu list */
+.topmenu ul {
+  list-style: none;
+  margin: 2rem 0 0 0;
+  padding: 0;
+  padding-top: 0.5rem;
+}
+
+.topmenu ul li {
+  padding: 0.5rem 0;
+}
+
+.topmenu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* menu button in the header */
+#menu-btn {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1100;
 }
