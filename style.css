@@ -25,26 +25,36 @@ header {
     font-family: 'SysfontC', sans-serif;
     background-color: black;
     color: #ffffff;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
 }
 
-h1, h4 {
+h1 {
     font-family: 'SysfontC', sans-serif;
+    font-size: 2rem;
 }
 
+h4 {
+    font-family: 'SysfontC', sans-serif;
+    font-size: 1.25rem;
+}
+
+
 html, body {
-    height: 100%;
+    background-color: beige;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .wrapper {
     min-height: 100vh;
     position: relative;
     padding-bottom: 60px;
+    margin: 0 auto;
 }
 
 main {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 footer {
@@ -56,7 +66,7 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 3.75rem;
     width: 100%;
-    padding: 20px;
+    padding: 1.25rem;
 }
