@@ -27,6 +27,13 @@ header {
     color: #ffffff;
     padding: 1.25rem;
     text-align: center;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 h1 {
