@@ -57,6 +57,7 @@ h4 {
 
 html, body {
     background-color: #62629b;
+    background-image: url("images/wp.png");
     font-size: 1rem;
     line-height: 1.5;
 }
