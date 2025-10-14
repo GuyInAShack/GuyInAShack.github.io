@@ -8,6 +8,11 @@
   src: url('fonts/inter.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Jmono';
+  src: url('fonts/JetBrainsMono.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +20,7 @@
 }
 
 body {
-  font-family: 'inter', sans-serif;
+  font-family: 'Jmono', monospace;
   line-height: 1.6;
   background-color: #191724;
   color: #333;
@@ -39,7 +44,8 @@ nav a {
 }
 
 main {
-  background-color: white;
+  background-color: #26233a;
+  color: #e0def4;
   padding: 20px;
   margin-top: 20px;
   border-radius: 20px;
