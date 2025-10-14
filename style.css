@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'colon';
+  src: url('fonts/CcColon-reYx.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url('fonts/inter.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  line-height: 1.6;
+  background-color: #191724;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #26233a;
+  color: #e0def4;
+  padding: 20px;
+  text-align: center;
+  font-family: 'colon', sans-serif;
+  border-radius: 20px;
+}
+
+nav a {
+  color: #908caa;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+main {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: #777;
+}
